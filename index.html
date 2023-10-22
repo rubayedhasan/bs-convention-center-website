@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Convention Center</title>
-    <!-- css styles link -->
-    <link rel="stylesheet" href="styles/style.css" />
     <!-- google fonts link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +18,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- css styles link -->
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <!-- header section  -->
@@ -189,7 +189,7 @@
     <main class="container-fluid">
         <div class="container">
             <section class="album">
-                <div class="row row-cols-1 row-cols-md-2 align-items-center g-1">
+                <div class="row row-cols-1 row-cols-lg-2 align-items-center g-5">
                     <div class="col-12 col-md-6">
                         <div class="photo">
                             <img src="images/image/wedding.png" alt="wedding" class="img-fluid">
@@ -206,6 +206,167 @@
                     </div>
                 </div>
             </section>
+            <!-- toasts section  -->
+            <section class="pop-message">
+              <div class="toast show align-items-center text-bg-light position-absolute end-0 bottom-45" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                  <div class="toast-body m-auto">
+                    <i class="me-2 fa-solid fa-gift"></i>
+                    <span>20% off on next booking</span>
+                  </div>
+                  <button type="button" class="btn-close btn-close-black me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+              </div>
+            </section>
+              <!-- our-package section  -->
+              <section class="our-package">
+                <h1 class="section-title text-center">Our Package</h1>
+                <div class="packages">
+                  <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="package business-fair">
+                        <h4 class="price">$300</h4>
+                        <h3 class="package-name">Business fair</h3>
+                        <div class="package-description">
+                          <p class="package-text">For most businesses event <br> 
+                            like book fair, craft fair.</p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            limited space access
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Secuirty facility
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            event support
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Decoration design
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Per day bill
+                          </p>
+                        </div>
+                        <div class="package-btn text-center">
+                          <button class="btn choose-btn rounded-pill">Choose plan</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="package wedding-basic">
+                        <h4 class="price">$500</h4>
+                        <h3 class="package-name">wedding basic</h3>
+                        <div class="package-description">
+                          <p class="package-text">For weddings with basic plan <br>
+                            and limited item</p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Full space access
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Food arrangement
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            mangement support
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Decoration design
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Billed as shift
+                          </p>
+                        </div>                        
+                        <div class="package-btn text-center">
+                          <button class="btn choose-btn rounded-pill">Choose plan</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="package Wedding-plus position-relative">
+                        <span class="position-absolute top-0 end-70 translate-middle badge rounded-pill bg-danger">
+                          Hot
+                          <span class="visually-hidden">unread messages</span>
+                        </span>
+                        <h4 class="price">$800</h4>
+                        <h3 class="package-name">Wedding plus</h3>
+                        <div class="package-description">
+                          <p class="package-text">For most weddings with <br> premium plans</p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Full space access
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Dedicated team
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Buffet food
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            premium Decoration
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            pay as plan
+                          </p>
+                        </div>                        
+                        <div class="package-btn text-center">
+                          <button class="btn choose-btn rounded-pill">Choose plan</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                      <div class="package Corporate-event">
+                        <h4 class="price">$1200</h4>
+                        <h3 class="package-name">Corporate event</h3>
+                        <div class="package-description">
+                          <p class="package-text">For most corporate business <br>
+                            events</p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Full space access
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Dedicated team
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            Buffet food
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            premium Decoration
+                          </p>
+                          <p class="package-text">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            pay as plan
+                          </p>
+                        </div>                        
+                        <div class="package-btn text-center">
+                          <button class="btn choose-btn rounded-pill">Choose plan</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- client-reviews section  -->
+              <section class="client-reviews">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium et quas sunt facere tempora quaerat ducimus eveniet iure nemo eos?</p>
+              </section>
+
+
         </div>
     </main>
 

@@ -11,6 +11,15 @@ li {
   list-style: none;
 }
 
+/* common styles  */
+.section-title {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 100px;
+}
+
 body {
   /* font-family: "Inter", sans-serif;
   font-family: "Manrope", sans-serif;
@@ -89,4 +98,106 @@ nav .nav-link {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   padding: 10px 24px;
+}
+
+/* toasts section styles  */
+.toast {
+  width: 263px;
+  border: 0;
+  border-left: 9px solid #007cff;
+}
+.bottom-45 {
+  top: 90%;
+}
+.toast .toast-body .fa-gift {
+  color: #007cff;
+  font-size: 22px;
+}
+.toast .toast-body span {
+  color: #505050;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+/* our-package section styles  */
+.our-package {
+  margin-top: 100px;
+}
+.package {
+  padding: 40px 30px 20px;
+  box-shadow: 0 3px 5px 0 #84819954;
+  border-radius: 5px;
+  transition: all 1.5s;
+}
+.price {
+  color: #231d4f;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  transition: all 1.5s;
+}
+.package-name {
+  color: #231d4f;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+  transition: all 1.5s;
+}
+.package-text {
+  color: #848199;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  transition: all 1.5s;
+}
+.package-description .package-text span {
+  color: #5243c2;
+  font-size: 15px;
+  padding: 1px 5px;
+  border-radius: 72%;
+  background-color: #5243c275;
+  margin-right: 5px;
+  transition: all 1.5s;
+}
+.choose-btn {
+  color: #3f87f5;
+  padding: 14px 62px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  background-color: #f496d248;
+  transition: all 1.5s;
+}
+
+.end-70 {
+  right: 20px;
+}
+
+.package:hover {
+  padding: 40px 30px 20px;
+  background-color: #3f87f5;
+  border-radius: 20px;
+  box-shadow: 0 34px 34px 0 #3f88f594;
+}
+.package:hover .price,
+.package:hover .package-name,
+.package:hover .package-text {
+  color: #fff;
+}
+.package:hover .package-description .package-text span {
+  color: #fff;
+  background-color: #ffffff34;
+}
+.package:hover .choose-btn {
+  color: #3f87f5;
+  padding: 14px 70px;
+  background-color: #fff;
+}
+
+/* client-reviews section styles */
+.client-reviews {
+  margin-top: 100px;
 }
