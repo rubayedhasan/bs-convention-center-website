@@ -1,0 +1,92 @@
+/* basic styles */
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+body {
+  /* font-family: "Inter", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif; */
+}
+
+/* header section styles  */
+header {
+  padding-top: 40px;
+}
+
+nav .navbar-brand {
+  color: #3e3e3e;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+nav .nav-link {
+  color: #3e3e3e;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-right: 16px;
+}
+
+.banner {
+  margin-top: 40px;
+}
+
+.banner .carousel-item .carousel-caption h5 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.banner .carousel-item .carousel-caption p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 17px;
+}
+.banner .carousel-item .carousel-caption button {
+  color: #3f87f5;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 43px;
+  margin-bottom: 42px;
+}
+
+/* album section styles  */
+.album {
+  margin-top: 100px;
+}
+
+.album-description .album-title {
+  color: #0a0826;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+.album-description .album-content {
+  color: #6c6c6c;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.album-description button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 24px;
+}
