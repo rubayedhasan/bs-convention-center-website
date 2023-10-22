@@ -227,3 +227,25 @@ nav .nav-link {
   color: #747474;
   margin: 0;
 }
+
+/* q-n-section styles  */
+.q-n-section {
+  margin-top: 100px;
+}
+.accordion-item {
+  margin-bottom: 15px;
+  border: 2.5px solid #d5e5fb;
+}
+.accordion-button {
+  color: #383838;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  padding: 20p 0 10px;
+}
+.accordion-body {
+  color: #7e848c;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
