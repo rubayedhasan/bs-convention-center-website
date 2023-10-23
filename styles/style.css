@@ -262,3 +262,11 @@ footer {
   font-weight: 400;
   font-family: "Manrope", sans-serif;
 }
+
+.text {
+  color: #d9dbe1;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Manrope", sans-serif;
+  margin-bottom: 16px;
+}
