@@ -270,3 +270,18 @@ footer {
   font-family: "Manrope", sans-serif;
   margin-bottom: 16px;
 }
+
+/* responsive styles  */
+/* medium devices responsive styles  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner .carousel-item .carousel-caption h5 {
+    font-size: 25px;
+  }
+  .banner .carousel-item .carousel-caption p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .banner .carousel-item .carousel-caption button {
+    margin-bottom: 20px;
+  }
+}
